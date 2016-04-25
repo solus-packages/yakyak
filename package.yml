@@ -1,0 +1,28 @@
+name       : yakyak
+version    : 1.2.0
+release    : 1
+source     :
+    - https://github.com/yakyak/yakyak/releases/download/v1.2.0/yakyak-linux-x64.zip : c52d407d24434309f3af44416f2070033dec5cb5cb7ce01fc8dc4dc180607ffc
+license    : MIT
+summary    : Desktop chat client for Google Hangouts
+component  : network.im
+description: |
+    Desktop chat client for Google Hangouts
+rundeps    :
+    - gconf
+    - nodejs
+install    : |
+    yakDir=$installdir/%libdir%/yakyak
+    cd $workdir
+    install -dm755 $installdir/usr/bin
+    install -dm755 $yakDir
+    cp -R * $yakDir/
+    ln -s %libdir%/yakyak/yakyak $installdir/usr/bin/yakyak
+    install -Dm644 $pkgfiles/yakyak.desktop $installdir/usr/share/applications/yakyak.desktop
+    install -Dm644 $pkgfiles/icon.png $installdir/usr/share/pixmaps/yakyak.png
+    rm $yakDir/resources/app/icons/icon.png
+    install -Dm644 $pkgfiles/icon.png $yakDir/resources/app/icons/icon.png
+    for icon in $yakDir/resources/app/icons/icon@*.png; do
+        rm $icon
+        install -Dm644 $pkgfiles/icon.png $icon
+    done

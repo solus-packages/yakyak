@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=YakYak
+Comment=Desktop chat client for Google Hangouts
+GenericName=Instant Messenger
+Exec=/usr/bin/yakyak
+Icon=yakyak
+Type=Application
+Terminal=false
+StartupNotify=true
+StartupWMClass=yakyak
+Categories=InstantMessaging;Network;
+MimeType=text/plain;
