@@ -1,8 +1,8 @@
 name       : yakyak
-version    : 1.2.0
-release    : 1
+version    : 1.2.2
+release    : 2
 source     :
-    - https://github.com/yakyak/yakyak/releases/download/v1.2.0/yakyak-linux-x64.zip : c52d407d24434309f3af44416f2070033dec5cb5cb7ce01fc8dc4dc180607ffc
+    - https://github.com/yakyak/yakyak/releases/download/v1.2.2/yakyak-linux-x64.zip : d223cc71c223955e8d7c3aa17de882c8362903d7b7099c774a884a6b0a181b28
 license    : MIT
 summary    : Desktop chat client for Google Hangouts
 component  : network.im
