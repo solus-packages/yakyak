@@ -1,16 +1,19 @@
 name       : yakyak
-version    : 1.4.2
-release    : 7
+version    : 1.4.3
+release    : 8
 source     :
-    - https://github.com/yakyak/yakyak/releases/download/v1.4.2/yakyak-1.4.2-linux-x64.tar.gz : 09b76ec0e89d3a79bba794ccfebdb59e58418dc8d4eeb3e0ea000e3cf3f819a9
+    - https://github.com/yakyak/yakyak/releases/download/v1.4.3/yakyak-1.4.3-linux-x64.tar.gz : 9b2614bf4b89afec131e68554ad41cf0c1e5808f59be43a5f3cc92cf6dd4c683
 license    : MIT
 summary    : Desktop chat client for Google Hangouts
 component  : network.im
 description: |
     Desktop chat client for Google Hangouts
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gconf-2.0)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(xscrnsaver)
 rundeps    :
-    - gconf
-    - libxscrnsaver
     - nodejs
 install    : |
     yakDir=$installdir/%libdir%/yakyak
