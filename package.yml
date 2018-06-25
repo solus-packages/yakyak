@@ -1,8 +1,8 @@
 name       : yakyak
-version    : 1.4.4
-release    : 9
+version    : 1.5.1
+release    : 10
 source     :
-    - https://github.com/yakyak/yakyak/releases/download/v1.4.4/yakyak-1.4.4-linux-x64.tar.gz : 512ddb482a82d69da6560a6297c5abe593feb175dfe546943684dfc0e8de0cc2
+    - https://github.com/yakyak/yakyak/releases/download/v1.5.1/yakyak-1.5.1-linux-x64.tar.gz : 83e655c58086d3e4b4b83d4923ef818cef293070536cc86bbbb06effe03280b9
 license    : MIT
 summary    : Desktop chat client for Google Hangouts
 component  : network.im
@@ -11,22 +11,21 @@ description: |
 builddeps  :
     - pkgconfig(alsa)
     - pkgconfig(gconf-2.0)
+    - pkgconfig(gtk+-x11-2.0)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(xscrnsaver)
-rundeps    :
-    - nodejs
 install    : |
     yakDir=$installdir/%libdir%/yakyak
     cd $workdir
-    install -dm755 $installdir/usr/bin
-    install -dm755 $yakDir
+    install -dm00755 $installdir/usr/bin
+    install -dm00755 $yakDir
     cp -R * $yakDir/
     ln -s %libdir%/yakyak/yakyak $installdir/usr/bin/yakyak
-    install -Dm644 $pkgfiles/yakyak.desktop $installdir/usr/share/applications/yakyak.desktop
-    install -Dm644 $pkgfiles/icon.png $installdir/usr/share/pixmaps/yakyak.png
+    install -Dm00644 $pkgfiles/yakyak.desktop $installdir/usr/share/applications/yakyak.desktop
+    install -Dm00644 $pkgfiles/icon.png $installdir/usr/share/pixmaps/yakyak.png
     rm $yakDir/resources/app/icons/icon.png
-    install -Dm644 $pkgfiles/icon.png $yakDir/resources/app/icons/icon.png
+    install -Dm00644 $pkgfiles/icon.png $yakDir/resources/app/icons/icon.png
     for icon in $yakDir/resources/app/icons/icon@*.png; do
         rm $icon
-        install -Dm644 $pkgfiles/icon.png $icon
+        install -Dm00644 $pkgfiles/icon.png $icon
     done
