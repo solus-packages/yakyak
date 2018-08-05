@@ -2,8 +2,8 @@
     <Source>
         <Name>yakyak</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.im</PartOf>
@@ -3847,12 +3847,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2018-06-25</Date>
+        <Update release="11">
+            <Date>2018-08-05</Date>
             <Version>1.5.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
