@@ -2,8 +2,8 @@
     <Source>
         <Name>yakyak</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Marc-André Renaud</Name>
+            <Email>ma.renaud@slashvoid.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.im</PartOf>
@@ -83,12 +83,13 @@
             <Path fileType="library">/usr/lib64/yakyak/locales/zh-CN.pak</Path>
             <Path fileType="library">/usr/lib64/yakyak/locales/zh-TW.pak</Path>
             <Path fileType="library">/usr/lib64/yakyak/natives_blob.bin</Path>
-            <Path fileType="library">/usr/lib64/yakyak/pdf_viewer_resources.pak</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-read.png</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-read@20.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-read@2x.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-read@8x.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-unread.png</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-unread@20.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-unread@2x.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon-unread@8x.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/icons/icon.png</Path>
@@ -142,13 +143,9 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/dist/ajv.bundle.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/dist/ajv.min.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/dist/ajv.min.js.map</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/dist/nodent.min.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/dist/regenerator.min.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/$data.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/ajv.d.ts</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/ajv.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/cache.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/_rules.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/async.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/equal.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/error_classes.js</Path>
@@ -159,6 +156,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/schema_obj.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/ucs2length.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/compile/util.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/data.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/_limit.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/_limitItems.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/_limitLength.jst</Path>
@@ -166,6 +164,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/allOf.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/anyOf.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/coerce.def</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/comment.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/const.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/contains.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/custom.jst</Path>
@@ -175,6 +174,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/enum.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/errors.def</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/format.jst</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/if.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/items.jst</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/missing.def</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dot/multipleOf.jst</Path>
@@ -194,12 +194,15 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/_limitProperties.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/allOf.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/anyOf.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/comment.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/const.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/contains.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/custom.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/dependencies.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/enum.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/format.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/if.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/items.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/multipleOf.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/not.js</Path>
@@ -212,17 +215,17 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/uniqueItems.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/dotjs/validate.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/keyword.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/patternGroups.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/refs/$data.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/refs/data.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/refs/json-schema-draft-04.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/refs/json-schema-draft-06.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/refs/json-schema-v5.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/lib/refs/json-schema-draft-07.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/.eslintrc.yml</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/bundle.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/compile-dots.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/info</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/prepare-tests</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/publish-built-version</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ajv/scripts/travis-gh-pages</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/HISTORY.md</Path>
@@ -230,14 +233,23 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/es2015/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/index.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/.flowconfig</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/HISTORY.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/LICENSE.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/README.md</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/es2015/fixtures/async.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/es2015/fixtures/classes.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/es2015/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/edition-browsers/fixtures/async.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/edition-browsers/fixtures/classes.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/edition-browsers/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/edition-node-0.8/fixtures/async.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/edition-node-0.8/fixtures/classes.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/edition-node-0.8/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/HISTORY.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/LICENSE.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/README.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/edition-browsers/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/edition-node-0.8/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/node_modules/editions/source/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/source/fixtures/async.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ambi/node_modules/typechecker/source/fixtures/classes.js</Path>
@@ -294,8 +306,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asar/node_modules/tmp/test/unsafe-sync.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asar/node_modules/tmp/test/unsafe.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asar/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/.npmignore</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/.travis.yml</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/lib/ber/errors.js</Path>
@@ -305,8 +315,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/lib/ber/writer.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/lib/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/tst/ber/reader.test.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/asn1/tst/ber/writer.test.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/assert-plus/AUTHORS</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/assert-plus/CHANGES.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/assert-plus/README.md</Path>
@@ -496,6 +504,8 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/balanced-match/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/balanced-match/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/balanced-match/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/bcrypt-pbkdf/CONTRIBUTING.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/bcrypt-pbkdf/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/bcrypt-pbkdf/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/bcrypt-pbkdf/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/bcrypt-pbkdf/package.json</Path>
@@ -600,11 +610,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/cliui/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/cliui/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/cliui/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/co/History.md</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/co/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/co/Readme.md</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/co/index.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/co/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/code-point-at/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/code-point-at/license</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/code-point-at/package.json</Path>
@@ -750,7 +755,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/eachr/example.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/eachr/out/lib/eachr.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/eachr/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ecc-jsbn/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ecc-jsbn/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ecc-jsbn/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ecc-jsbn/index.js</Path>
@@ -773,6 +777,13 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/electron-installer-flatpak/resources/icon.png</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/electron-installer-flatpak/src/cli.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/electron-installer-flatpak/src/installer.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/HISTORY.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/LICENSE.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/README.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/es2015/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/errlop/source/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/error-ex/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/error-ex/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/error-ex/index.js</Path>
@@ -824,9 +835,9 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ev-store/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ev-store/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/ev-store/test.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/.editorconfig</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/.eslintrc</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/.jscs.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/.travis.yml</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/CHANGELOG.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/extend/LICENSE</Path>
@@ -968,6 +979,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/form-data/lib/form_data.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/form-data/lib/populate.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/form-data/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/form-data/yarn.lock</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/fs-extra/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/fs-extra/CHANGELOG.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/fs-extra/LICENSE</Path>
@@ -1006,6 +1018,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/fs.realpath/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/fs.realpath/old.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/fs.realpath/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/get-caller-file/LICENSE.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/get-caller-file/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/get-caller-file/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/get-caller-file/package.json</Path>
@@ -1032,7 +1045,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/global/window.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/README.md</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/fs.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/clone.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/graceful-fs.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/legacy-streams.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/graceful-fs/package.json</Path>
@@ -1046,7 +1059,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/growly/lib/gntp.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/growly/lib/growly.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/growly/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/hangupsjs/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/hangupsjs/.travis.yml</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/hangupsjs/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/hangupsjs/lib/auth.js</Path>
@@ -1246,7 +1258,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/jsbn/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/jsbn/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/json-schema-traverse/.eslintrc.yml</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/json-schema-traverse/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/json-schema-traverse/.travis.yml</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/json-schema-traverse/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/json-schema-traverse/README.md</Path>
@@ -3085,9 +3096,21 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/process/browser.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/process/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/process/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/.eslintignore</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/.eslintrc</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/README.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/data/rules.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/dist/psl.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/dist/psl.min.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/karma.conf.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/psl/yarn.lock</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/punycode/LICENSE-MIT.txt</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/punycode/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/punycode/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/punycode/punycode.es6.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/punycode/punycode.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/q/CHANGES.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/q/LICENSE</Path>
@@ -3193,6 +3216,13 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safefs/es6guardian.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safefs/nakefile.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safefs/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/Porting-Buffer.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/Readme.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/dangerous.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/safer.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/safer-buffer/tests.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/scandirectory/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/scandirectory/HISTORY.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/scandirectory/LICENSE.md</Path>
@@ -3221,6 +3251,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-exceptions/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-exceptions/index.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-exceptions/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-exceptions/test.log</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-expression-parse/AUTHORS</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-expression-parse/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/spdx-expression-parse/README.md</Path>
@@ -3393,32 +3424,23 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/touch/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/touch/test/sanity.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/touch/touch.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/.npmignore</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/README.md</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/index.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/lib/filestore.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/.jshintrc</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/.npmignore</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/README.md</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/generate-pubsuffix.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/lib/cookie.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/lib/memstore.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/lib/pubsuffix.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/lib/store.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/public-suffix.txt</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/node_modules/tough-cookie/test.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-filestore/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-file-store/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-file-store/README.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-file-store/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-file-store/lib/file-store.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie-file-store/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/LICENSE</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/cookie.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/memstore.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/pathMatch.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/permuteDomain.js</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/pubsuffix.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/pubsuffix-psl.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/lib/store.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/node_modules/punycode/LICENSE-MIT.txt</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/node_modules/punycode/README.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/node_modules/punycode/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/node_modules/punycode/punycode.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/tough-cookie/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/traverse/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/traverse/LICENSE</Path>
@@ -3506,6 +3528,64 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/untildify/license</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/untildify/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/untildify/readme.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/README.md</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/bower.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/es5/uri.all.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/es5/uri.all.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/es5/uri.all.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/es5/uri.all.min.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/es5/uri.all.min.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/es5/uri.all.min.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/index.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/index.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/index.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/regexps-iri.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/regexps-iri.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/regexps-iri.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/regexps-uri.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/regexps-uri.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/regexps-uri.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/http.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/http.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/http.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/https.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/https.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/https.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/mailto.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/mailto.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/mailto.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/urn-uuid.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/urn-uuid.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/urn-uuid.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/urn.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/urn.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/schemes/urn.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/uri.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/uri.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/uri.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/util.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/util.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/dist/esnext/util.js.map</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/package.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/rollup.config.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/index.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/punycode.d.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/regexps-iri.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/regexps-uri.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/schemes/http.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/schemes/https.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/schemes/mailto.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/schemes/urn-uuid.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/schemes/urn.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/uri.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/src/util.ts</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/tests/qunit.css</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/tests/qunit.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/tests/test-es5-min.html</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/tests/test-es5.html</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/tests/tests.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/tsconfig.json</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uri-js/yarn.lock</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uuid/.eslintrc.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uuid/AUTHORS</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/uuid/CHANGELOG.md</Path>
@@ -3531,7 +3611,6 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/validate-npm-package-license/README.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/validate-npm-package-license/index.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/validate-npm-package-license/package.json</Path>
-            <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/validate-npm-package-license/test.log</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/verror/.npmignore</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/verror/CHANGES.md</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/verror/CONTRIBUTING.md</Path>
@@ -3728,6 +3807,7 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/yargs/locales/zh_CN.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/yargs/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/node_modules/yargs/yargs.js</Path>
+            <Path fileType="library">/usr/lib64/yakyak/resources/app/package-lock.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/package.json</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/seqreq.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/ui/about.html</Path>
@@ -3837,8 +3917,8 @@
             <Path fileType="library">/usr/lib64/yakyak/resources/app/ui/views/trayicon.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/app/ui/views/typinginfo.js</Path>
             <Path fileType="library">/usr/lib64/yakyak/resources/electron.asar</Path>
-            <Path fileType="library">/usr/lib64/yakyak/snapshot_blob.bin</Path>
             <Path fileType="library">/usr/lib64/yakyak/ui_resources_200_percent.pak</Path>
+            <Path fileType="library">/usr/lib64/yakyak/v8_context_snapshot.bin</Path>
             <Path fileType="library">/usr/lib64/yakyak/version</Path>
             <Path fileType="library">/usr/lib64/yakyak/views_resources_200_percent.pak</Path>
             <Path fileType="library">/usr/lib64/yakyak/yakyak</Path>
@@ -3847,12 +3927,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2018-08-05</Date>
-            <Version>1.5.1</Version>
+        <Update release="12">
+            <Date>2018-11-09</Date>
+            <Version>1.5.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Marc-André Renaud</Name>
+            <Email>ma.renaud@slashvoid.com</Email>
         </Update>
     </History>
 </PISI>
