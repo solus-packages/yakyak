@@ -2,15 +2,15 @@
     <Source>
         <Name>yakyak</Name>
         <Packager>
-            <Name>Marc-André Renaud</Name>
-            <Email>ma.renaud@slashvoid.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.im</PartOf>
         <Summary xml:lang="en">Desktop chat client for Google Hangouts</Summary>
         <Description xml:lang="en">Desktop chat client for Google Hangouts
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>yakyak</Name>
@@ -3927,12 +3927,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2018-11-09</Date>
+        <Update release="13">
+            <Date>2019-03-31</Date>
             <Version>1.5.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Marc-André Renaud</Name>
-            <Email>ma.renaud@slashvoid.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

@@ -1,6 +1,6 @@
 name       : yakyak
 version    : 1.5.3
-release    : 12
+release    : 13
 source     :
     - https://github.com/yakyak/yakyak/releases/download/v1.5.3/yakyak-1.5.3-linux-x64.tar.gz : 167ffb1dea780f4cc9f409b8e8e3d83c6158068de33e4df46680adb8f2eb2dcc
 license    : MIT
